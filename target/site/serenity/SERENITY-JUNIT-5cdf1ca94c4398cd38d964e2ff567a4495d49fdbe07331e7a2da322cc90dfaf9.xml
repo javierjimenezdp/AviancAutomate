@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Yo como usuario pasajero, deseo hacer una compra de un tiquete aereo" skipped="0" tests="1" time="162.27" timestamp="2023-02-02 12:36:18"><testcase name="Compra exitosa de un tiquete aereo"><error message="chrome not reachable&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'javier-VivoBook-ASUSLaptop-X509JB-X509JB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-58-generic', java.version: '1.8.0_352'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.XR3Qd7}, goog:chromeOptions: {debuggerAddress: localhost:34005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 894304c85e5234b879f900b9d090b346&#10;*** Element info: {Using=xpath, value=//span[@class='filter-text']}&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'javier-VivoBook-ASUSLaptop-X509JB-X509JB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-58-generic', java.version: '1.8.0_352'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'javier-VivoBook-ASUSLaptop-X509JB-X509JB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-58-generic', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.XR3Qd7}, goog:chromeOptions: {debuggerAddress: localhost:34005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 894304c85e5234b879f900b9d090b346
+*** Element info: {Using=xpath, value=//span[@class='filter-text']}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'javier-VivoBook-ASUSLaptop-X509JB-X509JB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-58-generic', java.version: '1.8.0_352'
+Driver info: driver.version: unknown</error><system-err>chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'javier-VivoBook-ASUSLaptop-X509JB-X509JB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-58-generic', java.version: '1.8.0_352'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.XR3Qd7}, goog:chromeOptions: {debuggerAddress: localhost:34005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 894304c85e5234b879f900b9d090b346
+*** Element info: {Using=xpath, value=//span[@class='filter-text']}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'javier-VivoBook-ASUSLaptop-X509JB-X509JB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-58-generic', java.version: '1.8.0_352'
+Driver info: driver.version: unknown
+PageObject.AviancaWebBasePage.esperaElemnento(AviancaWebBasePage.java:13)
+PageObject.AviancaPageObject.clickBottom2(AviancaPageObject.java:90)
+Steps.AviancaSteps.fly_package(AviancaSteps.java:32)
+StepDefinitions.AviancaStepDefinition.package_type(AviancaStepDefinition.java:31)
+✽.debo seleccionar un vuelo con el tipo de equipaje de ida y seleccionar un vuelo con el tipo de equipaje de vuelta para continuar con la personalización del vuelo(src/test/resources/Feature/serch.feature:7)
+</system-err></testcase></testsuite>
